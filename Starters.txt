@@ -1,0 +1,37 @@
+git --version
+
+git config --global user.name "Mythreyee"
+git config --global user.email mythu0226@gmail.com
+git config --global init.default branch main
+
+git config -h
+git help config
+
+
+git config --global -e ( the details of the account created)
+
+
+COMMANDS:
+git init 
+git status 
+git add
+git ls-files
+ls
+
+git reset .   
+git reset "particular file"
+
+git checkout -- .
+git checkout -- ""   (TO REMOVE BREANCH)
+git chechout commit "hash value"
+
+
+git log 
+git log --all 
+
+ALIAS:
+git config --global alias .s "status"
+-> git s
+git config --global alias .cm "commit -m"
+-> git cm 
+
