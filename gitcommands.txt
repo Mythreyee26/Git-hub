@@ -17,3 +17,6 @@ mv ""
 cd 
 echo jncsjnduhydgv > file.txt 
 echo dshiufiodj >> file2.txt 
+
+
+ git config --global --unset http.proxy
