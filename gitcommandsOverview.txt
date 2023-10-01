@@ -1,0 +1,25 @@
+git init
+git add
+git status
+git commit 
+git reset
+git log 
+git branch
+git checkout 
+git merge 
+git help 
+
+ls
+mkdir ""
+mv "" 
+cd 
+
+touch  (in bash and terminals)
+echo   (in windows without bash)
+
+
+echo type your texts > file.txt 
+echo type your texts2 >> file2.txt 
+
+
+ git config --global --unset http.proxy

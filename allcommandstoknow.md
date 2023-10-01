@@ -12,6 +12,7 @@ The instructions for this exercise use the `--global` flag when identifying your
 > ```sh
 > git config user.email "you@email.com"
 
+
 ### Configuring autocrlf
 
 
@@ -48,23 +49,12 @@ git log --patch
 git log --oneline --graph --decorate --all
 ```
 
-### Creating the alias
-
-```sh
-git config --global alias.lol "log --oneline --graph --decorate --all"
-```
-
-### Using the alias
-
-```sh
-git lol
-```
 
 
 
 Initialize the revert: `git revert <SHA>`
 1. Type a commit message.
-1. Push your changes to GitHub
+2. Push your changes to GitHub
 
 
 Create a new directory and initialize it as a git repository: `git init practice-repo`
