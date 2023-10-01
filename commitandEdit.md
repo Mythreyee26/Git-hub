@@ -61,4 +61,19 @@ git s
 ```sh
 git cm
 ``` 
-
+`git config --global alias.ec "config --global -e"`
+```sh
+git ec
+``` 
+`git config --global alias.ch "checkout"`
+```sh
+git ch
+``` 
+`git config --global alias.cob "checkout -b"`
+```sh
+git cob
+``` 
+`git config --global alias.s "status -s"`
+```sh
+git s
+``` 

@@ -74,10 +74,4 @@ git diff --color-words
 ```
 `git diff` will also allow you to compare between branches, commits, and tags by simply typing:
 
-```sh
-git diff <REF-1> <REF-2>
-git diff main slow-down
-git diff origin/main main
-git diff 2710 b745
-```
-
+`
