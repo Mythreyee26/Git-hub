@@ -41,15 +41,24 @@ rm -rf .git (removes everything in the repo)
    ```
 ### Alias
 
-`git config --global alias.cm "!git add -A && git commit -m"` 
+`git config --global alias.cam "!git add -A && git commit -m"` 
 
 ```sh
-git cm
+git cam
 ``` 
 
 `git config --global alias.lol "log --oneline --graph --decorate --all"`
 
 ```sh
 git lol
+``` 
+
+`git config --global alias .s "status"`
+```sh
+git s
+``` 
+`git config --global alias .cm "commit -m"`
+```sh
+git cm
 ``` 
 

@@ -44,6 +44,15 @@ git log --oneline --reverse
 git show HEAD
 git show HEAD~1
 
+git log
+git log --oneline
+git log --oneline --graph
+git log --oneline --graph --decorate
+git log --oneline --graph --decorate --all
+git log --stat
+git log --patch
+git log --all 
+
 
 git ls-tree 
 git ls-tree HEAD~1

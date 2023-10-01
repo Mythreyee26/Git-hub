@@ -1,4 +1,8 @@
+COMMANDS:
+mkdir
+cd
 git init
+
 git add
 git status
 git commit 
@@ -22,4 +26,26 @@ echo type your texts > file.txt
 echo type your texts2 >> file2.txt 
 
 
- git config --global --unset http.proxy
+ git config --global --unset http.proxy...
+
+ git --version
+
+git config --global user.name "username"
+git config --global user.email your@gmail.com
+git config --global init.default branch main
+
+git config -h
+git help config
+
+git config --global -e ( the details of the account created)
+
+
+git ls-files
+ls
+
+git reset .   
+git reset "particular file"
+
+git checkout -- .
+git checkout -- ""   (TO REMOVE BREANCH)
+git chechout commit "hash value"
